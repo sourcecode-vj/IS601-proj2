@@ -1,3 +1,3 @@
 # IS601-proj2
 
-https://is601pr2.z13.web.core.windows.net/
+https://is601project2.z13.web.core.windows.net/
