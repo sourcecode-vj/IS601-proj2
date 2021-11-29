@@ -96,6 +96,31 @@
     The key takeaway is that objects are at the center of object-oriented programming in Python, not only representing the data, as in procedural programming, but in the overall structure of the program as well.
   </p>
 </article>
+<article class=OOPS>
+  <p class="b1">PYLINT</p>
+  <p>Pylint is a Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions.
+    <ul>
+  <li>To Install Pylint- pip install pylint </li>
+<li> To Run Pylint- pylint fileName.py</li>
+<li> To Run GUI- pylint-gui</li>
+<li> To Integrate Pylint with PyCharm - JetBrains
+  <ol>
+  <li> File/Settings/Tools/External Tools/ </li>
+  <li> Click Add '+' button</li>
+  <li> Fill in the arguments
+  1) Name: pylint
+  2) Program: C:\Python27\Scripts\pylint
+  3) Parameters: --rcfile ...\mantid\tools\Pylint\pylint.cfg $FileName$</li>
+  <li># Note: Insert full path instead of ...\mantid\tools\Pylint\pylint.cfg</li>
+  <li> Working directory: $FileDir$</li>
+  <li># Note: $FileName$ and $FileDir$ is a macro inserted</li>
+  <li> Leave rest of settings as default and click `OK` on Edit Tool</li>
+  <li> Click `OK` on Settings</li>
+  <li> Click right on the file or code</li>
+  <li> Select External Tools/pylint</li>
+  <li> pylint voilations should run inside pyCharm </li></ol></li></ul>
+  </p>
+
 <article class="subHistory">
   <ul>
     <li>FACTORY:</li>
@@ -209,6 +234,3 @@
   <p>PYTHON TUTORIAL<br>
     <a href="Varun:vj6@njit.edu">Varun Jagannathan</a></p>
 </footer>
-
-</body>
-</html>
